@@ -49,3 +49,4 @@
         if (this.x < 0 || this.x > canvas.width || this.y < 0 || this.y > canvas.height || this.opacity <= 0) {
           this.x = canvas.width / 2;
           this.y = canvas.height / 2;
+          this.vx = Math.random() * 4 - 2;
